@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MA Online Quran Teaching</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/random/1600x900/?islamic');
+            background-size: cover;
+            background-position: center;
+        }
+        .sticky-header {
+            transition: all 0.3s ease;
+        }
+        .sticky-header.sticky {
+            background-color: rgba(22, 101, 52, 0.95);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .animate-button {
+            transition: transform 0.2s ease;
+        }
+        .animate-button:hover {
+            transform: scale(1.05);
+        }
+        .faq-item {
+            transition: all 0.3s ease;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header id="header" class="bg-green-700 text-white py-4 sticky-header fixed w-full top-0 z-10">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <h1 class="text-3xl font-bold">MA Online Quran Teaching</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#home" class="hover:text-yellow-300 smooth-scroll">Home</a></li>
+                    <li><a href="#courses" class="hover:text-yellow-300 smooth-scroll">Courses</a></li>
+                    <li><a href="#features" class="hover:text-yellow-300 smooth-scroll">Why Us</a></li>
+                    <li><a href="#testimonials" class="hover:text-yellow-300 smooth-scroll">Testimonials</a></li>
+                    <li><a href="#faq" class="hover:text-yellow-300 smooth-scroll">FAQ</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-300 smooth-scroll">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg py-32 text-center text-white" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container mx-auto px-4">
+            <h2 class="text-5xl font-bold mb-6">Embark on a Quranic Journey</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Empowering kids with Noorani Qaida, Nazra, Hifz, and Duas through engaging, personalized online classes with expert tutors.</p>
+            <a href="#contact" class="bg-yellow-400 text-green-800 px-8 py-4 rounded-full font-semibold text-lg animate-button inline-block" data-aos="zoom-in" data-aos-delay="200">Start Free Trial</a>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-green-700 mb-12" data-aos="fade-up">Our Quranic Courses</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-green-100 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow" data-aos="fade-right" data-aos-delay="100">
+                    <h3 class="text-2xl font-semibold text-green-700 mb-4">Noorani Qaida</h3>
+                    <p class="text-gray-600">Master Arabic letters and Tajweed rules with fun, interactive lessons tailored for beginners.</p>
+                </div>
+                <div class="bg-yellow-100 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow" data-aos="fade-right" data-aos-delay="200">
+                    <h3 class="text-2xl font-semibold text-green-700 mb-4">Nazra Quran</h3>
+                    <p class="text-gray-600">Learn fluent Quran recitation with proper pronunciation and Tajweed guidance.</p>
+                </div>
+                <div class="bg-blue-100 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow" data-aos="fade-right" data-aos-delay="300">
+                    <h3 class="text-2xl font-semibold text-green-700 mb-4">Hifz-e-Quran</h3>
+                    <p class="text-gray-600">Memorize the Quran with structured plans and regular revision support.</p>
+                </div>
+                <div class="bg-pink-100 p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow" data-aos="fade-right" data-aos-delay="400">
+                    <h3 class="text-2xl font-semibold text-green-700 mb-4">Duas & Islamic Studies</h3>
+                    <p class="text-gray-600">Learn daily Duas, Kalimas, Salah, and Islamic manners for holistic growth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-green-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-green-700 mb-12" data-aos="fade-up">Why Choose MA Online Quran Teaching?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center p-6 bg-white rounded-lg shadow-md" data-aos="zoom-in" data-aos-delay="100">
+                    <h3 class="text-xl font-semibold text-green-700 mb-4">Expert Tutors</h3>
+                    <p class="text-gray-600">Qualified male and female tutors fluent in Urdu, English, and Arabic.</p>
+                </div>
+                <div class="text-center p-6 bg-white rounded-lg shadow-md" data-aos="zoom-in" data-aos-delay="200">
+                    <h3 class="text-xl font-semibold text-green-700 mb-4">Flexible Scheduling</h3>
+                    <p class="text-gray-600">24/7 classes with 30-minute sessions, 5 days a week.</p>
+                </div>
+                <div class="text-center p-6 bg-white rounded-lg shadow-md" data-aos="zoom-in" data-aos-delay="300">
+                    <h3 class="text-xl font-semibold text-green-700 mb-4">Personalized Learning</h3>
+                    <p class="text-gray-600">One-on-one classes with female tutors available for girls.</p>
+                </div>
+                <div class="text-center p-6 bg-white rounded-lg shadow-md" data-aos="zoom-in" data-aos-delay="400">
+                    <h3 class="text-xl font-semibold text-green-700 mb-4">Interactive Platform</h3>
+                    <p class="text-gray-600">Classes via Zoom, Skype, or WhatsApp with kid-friendly methods.</p>
+                </div>
+                <div class="text-center p-6 bg-white rounded-lg shadow-md" data-aos="zoom-in" data-aos-delay="500">
+                    <h3 class="text-xl font-semibold text-green-700 mb-4">Free Trial Classes</h3>
+                    <p class="text-gray-600">3-day free trial to find the perfect tutor and course.</p>
+                </div>
+                <div class="text-center p-6 bg-white rounded-lg shadow-md" data-aos="zoom-in" data-aos-delay="600">
+                    <h3 class="text-xl font-semibold text-green-700 mb-4">Safe & Private</h3>
+                    <p class="text-gray-600">No webcams required, ensuring family privacy.</p>
+                </ذ>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-yellow-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-green-700 mb-12" data-aos="fade-up">What Parents Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg" data-aos="fade-left" data-aos-delay="100">
+                    <p class="text-gray-600 italic">"My daughter loves her Qaida classes! The tutor is patient and makes learning fun."</p>
+                    <p class="mt-4 font-semibold text-green-700">Ayesha, Dubai, UAE</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg" data-aos="fade-left" data-aos-delay="200">
+                    <p class="text-gray-600 italic">"The Hifz program is excellent. My son is making great progress with his memorization."</p>
+                    <p class="mt-4 font-semibold text-green-700">Ahmed, London, UK</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg" data-aos="fade-left" data-aos-delay="300">
+                    <p class="text-gray-600 italic">"Flexible timings and professional tutors made this a perfect choice for my kids."</p>
+                    <p class="mt-4 font-semibold text-green-700">Fatima, Toronto, Canada</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-green-700 mb-12" data-aos="fade-up">Frequently Asked Questions</h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="faq-item bg-gray-100 p-4 rounded-lg mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="text-lg font-semibold text-green-700 cursor-pointer" onclick="this.nextElementSibling.classList.toggle('hidden')">What is the duration of the Qaida course?</h3>
+                    <p class="text-gray-600 hidden">The Noorani Qaida course typically takes 2-4 months, depending on the child's learning pace.</p>
+                </div>
+                <div class="faq-item bg-gray-100 p-4 rounded-lg mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="text-lg font-semibold text-green-700 cursor-pointer" onclick="this.nextElementSibling.classList.toggle('hidden')">Are female tutors available?</h3>
+                    <p class="text-gray-600 hidden">Yes, we provide female tutors for girls, ensuring comfort and adherence to Sharia guidelines.</p>
+                </div>
+                <div class="faq-item bg-gray-100 p-4 rounded-lg mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="text-lg font-semibold text-green-700 cursor-pointer" onclick="this.nextElementSibling.classList.toggle('hidden')">How do I enroll my child?</h3>
+                    <p class="text-gray-600 hidden">Contact us via WhatsApp or email to schedule a free trial class and start the enrollment process.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-green-50">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold text-green-700 mb-12" data-aos="fade-up">Connect With Us</h2>
+            <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">Join our academy today or schedule a free trial to start your child's Quranic journey!</p>
+            <div class="flex flex-col items-center space-y-4" data-aos="fade-up" data-aos-delay="200">
+                <p><strong>Phone:</strong> +923703024284</p>
+                <p><strong>WhatsApp:</strong> <a href="https://wa.me/+923223300956" class="text-green-600 hover:underline">+923223300956</a></p>
+                <p><strong>Email:</strong> <a href="mailto:maonlinelearning750@gmail.com" class="text-green-600 hover:underline">maonlinelearning750@gmail.com</a></p>
+                <p><strong>Website:</strong> <a href="http://www.onlinequranacademy.com" class="text-green-600 hover:underline">www.onlinequranacademy.com</a></p>
+            </div>
+            <a href="https://wa.me/+923223300956" class="mt-8 inline-block bg-yellow-400 text-green-800 px-8 py-4 rounded-full font-semibold text-lg animate-button" data-aos="zoom-in" data-aos-delay="300">Contact via WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-700 text-white py-6 text-center" data-aos="fade-up">
+        <p>© 2025 MA Online Quran Teaching. All Rights Reserved.</p>
+        <p class="mt-2">Designed with <span class="text-red-400">♥</span> for spiritual growth</p>
+    </footer>
+
+    <!-- AOS JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+
+        // Smooth Scrolling
+        document.querySelectorAll('.smooth-scroll').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+
+        // Sticky Header
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.classList.add('sticky');
+            } else {
+                header.classList.remove('sticky');
+            }
+        });
+    </script>
+</body>
+</html>
